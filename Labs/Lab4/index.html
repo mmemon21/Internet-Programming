@@ -69,7 +69,7 @@
             
           $.ajax({
               method: "GET",
-                 url: "https://itcdland.csumb.edu/~milara/ajax/states.php",
+                 url: "https://cst336.herokuapp.com/projects/api/countyListAPI.php",
             dataType: "json",
                 data: { "state": $("#state").val() },
              success: function(result,status) {
