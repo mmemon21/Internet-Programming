@@ -1,0 +1,13 @@
+body {
+	text-align: center;
+	font-style: georgia;
+
+	background-color: #A1F133;
+	text-orientation: upright;
+}
+
+h1 {
+	font-family: "Times New Roman", Times;
+    font-size: 48px;
+	color: #F13342;
+}
