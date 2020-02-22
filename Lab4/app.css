@@ -1,0 +1,22 @@
+body {
+	text-align: center;
+	font-style: georgia;
+	background-size: cover;
+	background-color: #CC3F15;
+	text-orientation: upright;
+	padding: 25px 50px 25px 50px;
+}
+
+h1 {
+	font-family: "Times New Roman", Times;
+    font-size: 48px;
+	color: white;
+	padding-top: 2px;
+	
+}
+
+div {
+	padding-left: 0px;
+	border-style: dotted;
+	background-color: lightgray;
+}
