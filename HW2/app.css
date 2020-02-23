@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    background-color: #BBA098;
+    color: white;
+    border-style: double;
+}
+
+img {
+	border-radius: 25px;
+	width: 250px;
+	image-rendering: auto;
+}
+
+h3 {
+	text-decoration: underline;
+	color: black;
+	font-style: oblique;
+}
+
+.jumbotron {
+  color: brown;
+  padding-top: 20px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url('https://bcheights.com/wp-content/uploads/2019/10/peaky-blinders-online-678x381.jpg');
+}
+
+footer {
+	text-align: center;
+	color: #186E77;
+	font-size: 15px;
+	border-style: dotted;
+	border-color: white;
+}

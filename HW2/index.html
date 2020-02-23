@@ -1,0 +1,106 @@
+<!--
+Author: Mustafa Memon
+Date: 2/22/2020
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personality Quiz</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="app.css" rel="stylesheet" type="text/css"/>
+
+</head>
+    <body class="text-center">
+        <h1 class="jumbotron">Peaky Blinders Personality Quiz
+        <br>Are you as similar to Thomas Shelby as you think?</h1>
+
+        <h3><span id="markImg1"></span>Please Enter Your Name:</h3>
+        <input type = "text" id="q1">
+        <!-- <div id="q1Feedback"></div> -->
+        <br></br>
+
+        <h3>Question 1:</h3>
+        <h3><span id="markImg2"></span>Your favourite superhero?</h3>
+        <select id="q2">
+          <option value="">Select One</option>
+          <option value="bl">Batman</option>
+          <option value="rn">Thor Odinson</option>
+          <option value="ra">Spiderman</option>
+          <option value="cn">Superman</option>
+        </select>
+        <!-- <div id="q2Feedback"></div> -->
+        <br></br>
+
+        <h3>Question 2:</h3>
+        <h3><span id="markImg3"></span>There is a mob boss in New York. You want to dismantle their mafia.
+          <br>What is your approach?</h3>
+        <input type="checkbox" id="one">  <label for="one"> Charm them with your style and try to infiltrate the mafia</label> <br>
+        <input type="checkbox" id="two">  <label for="two"> Take your personal army and attack them </label> <br>
+        <input type="checkbox" id="three"><label for="three">Shoot the boss in the head and simply take over</label> <br>
+        <input type="checkbox" id="four"> <label for="four">Do a dance off and winner takes it all</label>
+        <!-- <div id="q3Feedback"></div> -->
+        <br></br>
+
+        <!-- <h3>Question 4:</h3>
+        <h3><span id="markImg4"></span>Someone has smacked talked you,
+          <br>where do you punch them?</h3>
+        <div id="q4Choices"></div>
+        <div id="q4Feedback"></div> -->
+        <!-- <br></br> --> 
+        <h3>Question 3:</h3>
+        <h3><span id="markImg5"></span>Which Thomas Shelby are you mostly?</h3>
+        <img src="imgs/happy.jpg" alt="Happy" class="q5Choice" id="seal1" height="300">
+        <img src="imgs/sad.jpg" alt="Sad" class="q5Choice" id="seal2" height="300">
+        <img src="imgs/angry.jpg" alt="Angry" class="q5Choice" id="seal3" height="300">
+        <!-- <div id="q5Feedback"></div> -->
+        <br></br>
+
+       <!--  <h3>Question 6:</h3>
+        <h3><span id="markImg6"></span>Your parents just died, how do you feel?</h3>
+        <div id="q6Choices"></div>
+         <div id="q4Feedback"></div> -->
+        <br></br>
+
+        <h3>Question 4:</h3>
+        <h3><span id="markImg7"></span>Do you have a high temperament?</h3>
+        <select id="q7">
+          <option value="">Select One</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+          <option value="may">Kinda</option>
+        </select>
+        <!-- <div id="q7Feedback"></div> -->
+        <br></br>
+
+        <h3>Question 5:</h3>
+        <h3><span id="markImg8"></span>Check what describes you best</h3>
+        <input type="checkbox" id="kind">  <label for="kind"> Be Kind until someone isnt  </label> <br>
+        <input type="checkbox" id="rude"><label for="rude"> Be rude to everyone  </label> <br>
+        <input type="checkbox" id="netflix"> <label for="netflix"> Netflix and chill on weekends  </label> <br>
+        <input type="checkbox" id="horses"> <label for="horses"> Love riding horses and hunting  </label> <br>
+        <input type="checkbox" id="gamer"><label for="gamer"> Video gamer  </label>
+        <!-- <div id="q8Feedback"></div> -->
+        <br></br>
+
+
+        <h3 id="validationFdbk" class="bg-danger text-white"></h3>
+        <button class="btn btn-success"> Submit Quiz </button>
+        <h2 id="name"></h2>
+        <!-- <h3 id="congrats"></h3>
+        <h2 id="totalAttempts"></h2> -->
+    </body>
+
+    <footer>
+            
+            <img src="imgs/csumblogo.png" alt="CSUMB logo" height="100px" width="280px" /><br>
+            <p2>
+                Internet Programming. 2020&copy; Memon <br />
+                <strong>Disclaimer:</strong> The information in this webpage is fictious. <br />
+                It is used for academic purposes only.
+            </p2>
+    </footer>
+
+    <script src="app.js"></script>
+</html>
