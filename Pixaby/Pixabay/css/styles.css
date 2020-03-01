@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  background-image: url('https://cdn.pixabay.com/photo/2020/02/20/20/27/portugal-4865786_1280.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+ opacity: 2.5;
+}
+
+img {
+   border-radius: 20px;
+}
+
+.jumbotron {
+   /*background-color:#00FFFF;*/
+   color: red;
+
+}
+
+.search{
+   background-color: #E09138;
+   width: 300px;
+   height: 90px;
+   border: 1px black;
+   box-sizing: border-box;
+}
