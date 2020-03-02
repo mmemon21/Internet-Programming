@@ -1,0 +1,32 @@
+.container {
+    background-color: #E09138;
+   width: 300px;
+   height: 130px;
+   border: 1px black;
+   box-sizing: border-box;
+}
+
+.container input {
+    width: 100%;
+    clear: both;
+    border-radius: 35px;
+    border: 2px solid gray;
+
+}
+
+h1{
+  color: red;
+}
+
+body{
+  text-align: center;
+  background-image: url('https://cdn.pixabay.com/photo/2020/02/20/20/27/portugal-4865786_1280.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 2.5;
+}
+
+#orientation{
+  background-color: lightgrey;
+}
