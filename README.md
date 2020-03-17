@@ -11,7 +11,7 @@ https://mmemon21-cst336spring2020.herokuapp.com/Lab3Quiz/index.html
 
 https://mmemon21-cst336spring2020.herokuapp.com/Lab4/index.html
 
-https://mmemon21-cst336spring2020.herokuapp.com/Pixabay/index.html
+https://mmemon21-cst336spring2020.herokuapp.com/Pixabay/ind.html
 
 https://mmemon21-cst336spring2020.herokuapp.com/guessNumber/index.html
 
