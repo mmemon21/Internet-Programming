@@ -1,0 +1,15 @@
+<%- include('templates/header') -%>
+
+<div class='container'>
+    <div class='jumbotron'>
+        <h1>BOOK SEARCH</h1>
+        <form action='/results' method='GET'>
+            <input text='type' name='search' placeholder='search your book with ISBN...'>
+            <button class='btn btn-info'>Search</button>
+        </form>
+    </div>
+</div>
+
+<h1>Books</h1>
+
+<%- include('templates/footer') -%>
